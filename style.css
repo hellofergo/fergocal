@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 30px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    /* width: 50%; */
+}
+
+li {
+    padding: 30px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    border-left: 8px solid #34363d;
+    background-color: #131317;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 !important;
+}
+
+p {
+    margin: 4px 0 0 0 !important;
+    font-size: 13px;
+    color: grey
+}
+
+.now {
+    margin-bottom: 30px;
+}

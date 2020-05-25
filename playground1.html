@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Playground: Time in range</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+  <div id="current"></div>
+  <div id="start"></div>
+  <div id="end"></div>
+  <div id="between"></div>
+  <script src="moment.js"></script>
+  <script type="text/javascript">
+    function checkTime() {
+      var currentTime = moment(new Date().toISOString())
+      var startTime = moment().set({'hour': 16, 'minute': "00"})
+      var endTime = moment().set({'hour': 17, 'minute': "30"})
+
+      var betweenTime = moment(currentTime).isBetween(startTime, endTime);
+
+      document.getElementById("current").innerHTML = "current: " + currentTime
+      document.getElementById("start").innerHTML = "start: " + startTime
+      document.getElementById("end").innerHTML = "end: " + endTime
+      document.getElementById("between").innerHTML = "is between? " + betweenTime
+    }
+    checkTime();
+  </script>
+  </body>
+</html>
