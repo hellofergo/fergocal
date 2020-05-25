@@ -1,0 +1,23 @@
+{
+  "name": "fergocal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hellofergo/fergocal.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hellofergo/fergocal/issues"
+  },
+  "homepage": "https://github.com/hellofergo/fergocal#readme",
+  "devDependencies": {
+    "stylelint": "^13.5.0",
+    "stylelint-config-standard": "^20.0.0"
+  }
+}
