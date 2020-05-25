@@ -1,6 +1,8 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     padding: 30px;
+    background-color: black;
+    color: blanchedalmond;
 }
 
 ul {
